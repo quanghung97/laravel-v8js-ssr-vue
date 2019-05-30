@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class V8JsVueController extends Controller
 {
     public function render()
@@ -15,7 +13,6 @@ class V8JsVueController extends Controller
         $app_source = \File::get(public_path('js/server.js'));
 
         // define some local variable to our environment
-
         $js = '
             var process = { env: { VUE_ENV: "server", NODE_ENV: "production" } };
             this.global = { process: process };
