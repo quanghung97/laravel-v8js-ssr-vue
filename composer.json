@@ -1,0 +1,13 @@
+{
+    "name": "quanghung97/laravel-v8js-ssr-vue",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "quanghung97",
+            "email": "hungcan1997@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
