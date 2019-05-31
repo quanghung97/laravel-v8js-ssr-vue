@@ -14,7 +14,7 @@ class LaravelSsrV8jsVueServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->make('Quanghung97\LaravelV8jsSsrVue\V8JsVueController');
-        $this->loadViewsFrom(__DIR__.'/views', 'ssr');
+        $this->loadViewsFrom(__DIR__ . '/views', 'ssr');
     }
 
     /**
@@ -24,10 +24,11 @@ class LaravelSsrV8jsVueServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/routes.php';
+        include __DIR__ . '/routes.php';
 
         $this->publishes([
-        __DIR__.'/views' => base_path('resources/views/vendor/SimpleAdmin'),
-        ]);
+            __DIR__ . '/../resources/js' => resource_path(
+                'js/vendor/laravel-v8js-ssr-vue'
+        )], 'vue-components');
     }
 }
