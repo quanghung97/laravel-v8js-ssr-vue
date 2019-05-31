@@ -16,5 +16,6 @@
         <div id="app">
             {!! $html !!}
         </div>
+        <script src="{{ asset('js/client.js') }}"></script>
     </body>
 </html>

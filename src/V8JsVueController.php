@@ -9,7 +9,7 @@ class V8JsVueController extends Controller
     {
         $html = $this->render();
 
-        return view('ssr::ssr', [
+        return view('ssr', [
             'html' => $html
         ]);
     }

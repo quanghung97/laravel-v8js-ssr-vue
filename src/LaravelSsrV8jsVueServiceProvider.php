@@ -14,7 +14,6 @@ class LaravelSsrV8jsVueServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->make('Quanghung97\LaravelV8jsSsrVue\V8JsVueController');
-        $this->loadViewsFrom(__DIR__ . '/views', 'ssr');
     }
 
     /**
@@ -28,7 +27,11 @@ class LaravelSsrV8jsVueServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../resources/js' => resource_path(
-                'js/vendor/laravel-v8js-ssr-vue'
+                'js'
         )], 'vue-components');
+
+        $this->publishes([
+            __DIR__ . '/views' => base_path('resources/views'),
+        ]);
     }
 }
