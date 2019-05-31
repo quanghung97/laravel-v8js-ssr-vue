@@ -9,11 +9,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "Quanghung97\\LaravelV8jsSsrVue\\": "src"
-        }
-    },
+    "require": {},
     "extra": {
         "laravel": {
             "providers": [
@@ -21,5 +17,9 @@
             ]
         }
     },
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Quanghung97\\LaravelV8jsSsrVue\\": "/src"
+        }
+    }
 }
