@@ -1,9 +1,19 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Quanghung97\laravelV8jsSsrVue;
+use App\Http\Controllers\Controller;
 
 class V8JsVueController extends Controller
 {
+    public function index()
+    {
+        $html = $this->render();
+
+        return view('ssr::ssr', [
+            'html' => $html
+        ]);
+    }
+
     public function render()
     {
         // Get the vue server renderer script
