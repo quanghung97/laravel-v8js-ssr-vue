@@ -1,5 +1,10 @@
 # Server side rendering JavaScript with Vuejs in your Laravel application
 
+## Dependency
+You must install V8js extension on PHP, If you using docker you can using `php-fpm`
+
+https://github.com/quanghung97/laradock/tree/master/php-fpm
+
 ## Installation
 
 **1-** composer require quanghung97/laravel-v8js-ssr-vue.
