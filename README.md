@@ -23,4 +23,13 @@ This package will create component `AppSSR.vue` `AppSSR.js` `client.js` `server.
 
 **5-** npm run dev
 
-now you can go yourdomain/vue-ssr and view page source have `data-server-rendered="true"`
+**6-** please change or remove some routes like '/' in `routes/web.php`
+
+Example:
+```php
+Route::get('/', function () { // change '/' to '/something'
+    return view('welcome');
+});
+```
+
+now you can go yourdomain and view page source have `data-server-rendered="true"`
