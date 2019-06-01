@@ -1,5 +1,6 @@
 {
     "name": "quanghung97/laravel-v8js-ssr-vue",
+    "description": "Server side rendering JavaScript with Vuejs in your Laravel application V8js",
     "type": "package",
     "license": "MIT",
     "authors": [

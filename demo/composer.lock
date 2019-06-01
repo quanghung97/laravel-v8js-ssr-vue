@@ -1322,12 +1322,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/quanghung97/laravel-v8js-ssr-vue.git",
-                "reference": "6489d9592e5440393a7dc19e28b29ea7491efb0f"
+                "reference": "63bdbe57781b823d1ba54f2a260f44d266ff506d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quanghung97/laravel-v8js-ssr-vue/zipball/6489d9592e5440393a7dc19e28b29ea7491efb0f",
-                "reference": "6489d9592e5440393a7dc19e28b29ea7491efb0f",
+                "url": "https://api.github.com/repos/quanghung97/laravel-v8js-ssr-vue/zipball/63bdbe57781b823d1ba54f2a260f44d266ff506d",
+                "reference": "63bdbe57781b823d1ba54f2a260f44d266ff506d",
                 "shasum": ""
             },
             "type": "package",
@@ -1353,7 +1353,7 @@
                     "email": "hungcan1997@gmail.com"
                 }
             ],
-            "time": "2019-05-31T19:04:23+00:00"
+            "time": "2019-06-01T04:05:43+00:00"
         },
         {
             "name": "ramsey/uuid",
